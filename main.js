@@ -10,7 +10,7 @@ const navigateTo = (url) => {
     history.pushState(null, null, url)
     router();
 }
-console.log(`path: ${location.pathname}`)
+console.log(`path: ${location.pathname}`);
 
 const loadHTML = async (route, container) => {
     fetch(route)
